@@ -1,6 +1,6 @@
 local MessagingService = game:GetService("MessagingService")
 local shutdownCommand = "!shutdown"
-local shutdownUser = "OoOCatMiai"
+local shutdownUser = "OWNER USERNAME"
 local shutdownReason = "Shutdown"
 
 MessagingService:SubscribeAsync("ShutdownSignal", function()
